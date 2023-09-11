@@ -90,7 +90,7 @@ span{
 .LzVQT {
   font-family: "Athletics";
   font-weight: 600;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 32px;
   letter-spacing: -0.48px;
   color: rgb(25, 25, 25);
@@ -193,7 +193,7 @@ input {
   display: flex;
   position: relative;
   width: 100%;
-  border: 1px solid rgb(240, 240, 240);
+  border: 1px solid rgb(213, 211, 211);
   border-radius: 8px;
   height: 40px;
 }
@@ -563,7 +563,7 @@ width: 340px;
 }
 
 .gWIhmn {
-    padding-top: 32px;
+    padding-top: 300px;
 }
 
 .hRryTO:disabled {
