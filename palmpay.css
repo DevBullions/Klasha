@@ -743,8 +743,8 @@ video {
 }
 
 .outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
+  outline: 1px solid transparent;
+  outline-offset: 1px;
 }
 
 .disabled\:pointer-events-none:disabled {
