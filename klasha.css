@@ -482,6 +482,7 @@ p {
 .kJTptO {
     box-sizing: border-box;
     height: 100%;
+  width: 350px;
     display: flex;
     flex-direction: column;
     -moz-box-pack: center;
