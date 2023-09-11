@@ -272,7 +272,7 @@ button {
   cursor: pointer;
 }
 }
-  @media (min-width: 768px)
+  @media (min-width: 768px){
 .gWIhmn {
   padding-top: 38px;
 }
@@ -320,3 +320,4 @@ button {
   border: initial;
   cursor: pointer;
 }
+  }
