@@ -1,85 +1,100 @@
-*, ::after, ::before {
-  box-sizing: border-box;
+*, html, body, form, button{
+    text-align: center;
 }
-* {
-  box-sizing: border-box;
+body{
+    width: 95%;
 }
-:root {
-  --PhoneInput-color--focus: #03b2cb;
-  --PhoneInputInternationalIconPhone-opacity: 0.8;
-  --PhoneInputInternationalIconGlobe-opacity: 0.65;
-  --PhoneInputCountrySelect-marginRight: 0.35em;
-  --PhoneInputCountrySelectArrow-width: 0.3em;
-  --PhoneInputCountrySelectArrow-marginLeft: var(--PhoneInputCountrySelect-marginRight);
-  --PhoneInputCountrySelectArrow-borderWidth: 1px;
-  --PhoneInputCountrySelectArrow-opacity: 0.45;
-  --PhoneInputCountrySelectArrow-color: currentColor;
-  --PhoneInputCountrySelectArrow-color--focus: var(--PhoneInput-color--focus);
-  --PhoneInputCountrySelectArrow-transform: rotate(45deg);
-  --PhoneInputCountryFlag-aspectRatio: 1.5;
-  --PhoneInputCountryFlag-height: 1em;
-  --PhoneInputCountryFlag-borderWidth: 1px;
-  --PhoneInputCountryFlag-borderColor: rgba(0,0,0,.5);
-  --PhoneInputCountryFlag-borderColor--focus: var(--PhoneInput-color--focus);
-  --PhoneInputCountryFlag-backgroundColor--loading: rgba(0,0,0,.1);
-}
-:root {
-  --primary-black: #191919;
-  --secondary-black: #464646;
-  --primary-pink: #ef2c5a;
-  --alert-red: #f9123b;
-  --orange-background: #fffbf7;
-  --grey-text: #525252;
-  --secondary-black-text: #222223;
-}
-:root {
-  --toastify-color-light: #fff;
-  --toastify-color-dark: #121212;
-  --toastify-color-info: #3498db;
-  --toastify-color-success: #07bc0c;
-  --toastify-color-warning: #f1c40f;
-  --toastify-color-error: #e74c3c;
-  --toastify-color-transparent: hsla(0,0%,100%,.7);
-  --toastify-icon-color-info: var(--toastify-color-info);
-  --toastify-icon-color-success: var(--toastify-color-success);
-  --toastify-icon-color-warning: var(--toastify-color-warning);
-  --toastify-icon-color-error: var(--toastify-color-error);
-  --toastify-toast-width: 320px;
-  --toastify-toast-background: #fff;
-  --toastify-toast-min-height: 64px;
-  --toastify-toast-max-height: 800px;
-  --toastify-font-family: sans-serif;
-  --toastify-z-index: 9999;
-  --toastify-text-color-light: #757575;
-  --toastify-text-color-dark: #fff;
-  --toastify-text-color-info: #fff;
-  --toastify-text-color-success: #fff;
-  --toastify-text-color-warning: #fff;
-  --toastify-text-color-error: #fff;
-  --toastify-spinner-color: #616161;
-  --toastify-spinner-color-empty-area: #e0e0e0;
-  --toastify-color-progress-light: linear-gradient(90deg,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);
-  --toastify-color-progress-dark: #bb86fc;
-  --toastify-color-progress-info: var(--toastify-color-info);
-  --toastify-color-progress-success: var(--toastify-color-success);
-  --toastify-color-progress-warning: var(--toastify-color-warning);
-  --toastify-color-progress-error: var(--toastify-color-error);
-}V
-[type="reset"], [type="submit"], button, html [type="button"] {
-    -webkit-appearance: button;
-}
-button, select {
-    text-transform: none;
+body, html {
+    font-family: Inter,sans-serif;
+  }
+  span{
+    color: rgb(86, 92, 105);
+    font-family: Inter;
+    font-size: 15px;
+  }
+  input{
+    font-family: "Inter";
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: medium none;
+    outline: none;
+  }
+  [role="button"], a, area, button, input:not([type="range"]), label, select, summary, textarea {
+
+    touch-action: manipulation;
+
 }
 button, input {
+
     overflow: visible;
+
 }
-button, input, optgroup, select, textarea {
+
+button, select {
+    text-transform: none;
+  }
+  button, input {
+    overflow: visible;
+  }
+  button, input, optgroup, select, textarea {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     margin: 0;
-}
-[role="button"], a, area, button, input:not([type="range"]), label, select, summary, textarea {
+  }
+  [role="button"], a, area, button, input:not([type="range"]), label, select, summary, textarea {
     touch-action: manipulation;
+  }
+  button {
+    margin-top: 10px;
+    background-color: #ef2c59;
+    border: initial;
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+  }
+  h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: light;
+  }
+  p{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15.5px;
+  }
+  input{
+    border: solid #b1adad 1px;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 45px;
+  }
+  .space{
+    margin-bottom: 220px;
+  }
+  form{
+    top: 40px;
+  }
+
+  .container{
+    margin-top: 18px;
+  }
+  
+
+
+  
