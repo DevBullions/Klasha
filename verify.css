@@ -752,3 +752,6 @@ video {
 .disabled\:opacity-30:disabled {
   opacity: 0.3;
 } 
+h1,p{
+  text-align: left;
+}
