@@ -96,5 +96,9 @@ button, select {
   }
   
 
-
+@media (min-width: 600px){
+    body{
+    width: 55%;
+}
+}
   
