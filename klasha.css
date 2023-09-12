@@ -98,8 +98,7 @@ button, select {
 
 @media (min-width: 600px){
     body{
-    width: 75%;
-    margin-left: 300px;
+    margin: 0% 30%;
 }
 }
   
